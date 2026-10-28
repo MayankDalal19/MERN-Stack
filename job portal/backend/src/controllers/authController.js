@@ -7,7 +7,9 @@ const safeUser = (user) => ({
   email: user.email,
   role: user.role,
   avatar: user.avatar,
+  viewedJobs: user.viewedJobs || [],
 });
+
 export async function register(req, res, next) {
   try {
     const { name, email, password, role = "applicant" } = req.body;
