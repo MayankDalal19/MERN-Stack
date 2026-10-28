@@ -1,0 +1,29 @@
+git config
+repositories: local / remote
+git remote
+git init
+git status
+git add
+git commit 
+git branch
+git push
+git pull
+git checkout / git switch
+git merge
+
+git config --global user.name
+git config --global user.email
+
+git remote -v : tells you to which remote repo you are connected to
+git remote add 
+git remote remove
+
+git init: initializes the process of tracking files & folders
+
+git status: tells you which files & folders are being tracked right now
+git add: starts tracking
+
+git commit -m "COMMIT MESSAGE"
+
+
+Hello from the branch Mayank

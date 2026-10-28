@@ -1,0 +1,24 @@
+Find users whose first name is Aarav.
+Find users whose last name is Sharma.
+Find users named Aarav or users with last name Verma.
+Find users whose first name starts with A.
+Find users whose last name ends with a.
+Find users who live in Kolkata.
+Find users having more than one address.
+Find the user with the email priya.verma@example.com.
+Find all products in the Fashion category.
+Find all products in the Audio subcategory.
+Find products costing less than ₹1,000.
+Find products with a sale price between ₹500 and ₹2,000.
+Find products where the actual price is greater than ₹3,000.
+Find products whose title contains the word shirt, ignoring case.
+Find products with a Black color attribute.
+Find products having the Cotton material attribute.
+Find products with more than two images.
+Find products where salePrice is less than actualPrice.
+Find carts where quantity is greater than 1.
+Find carts containing a product priced above ₹1,000.
+Find only product titles and sale prices, excluding other fields.
+Sort products by sale price: low to high.
+Show the two most expensive products.
+Find users created today.

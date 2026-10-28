@@ -1,0 +1,10 @@
+What is virtual DOM?
+What is reconcilliation?
+What is React Fibre?
+What is a SPA?
+What is a component?
+What are props & state?
+What are hooks in react?
+What is Prop Drilling?
+What is Context API?
+What is global state management? (Redux / Zustand)

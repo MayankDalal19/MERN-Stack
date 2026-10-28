@@ -1,0 +1,3 @@
+import { Route, Routes } from 'react-router-dom';
+import Layout from './components/Layout'; import ProtectedRoute from './components/ProtectedRoute'; import HomePage from './pages/HomePage'; import JobsPage from './pages/JobsPage'; import AuthPage from './pages/AuthPage'; import DashboardPage from './pages/DashboardPage';
+export default function App() { return <Layout><Routes><Route path="/" element={<HomePage />} /><Route path="/jobs" element={<JobsPage />} /><Route path="/login" element={<AuthPage mode="login" />} /><Route path="/register" element={<AuthPage mode="register" />} /><Route path="/dashboard" element={<ProtectedRoute><DashboardPage /></ProtectedRoute>} /><Route path="*" element={<HomePage />} /></Routes></Layout>; }
